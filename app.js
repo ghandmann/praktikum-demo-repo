@@ -21,4 +21,8 @@ app.get("/time", (req, res) => {
     res.send(new Date());
 });
 
+app.get("/echo", (req, res) => {
+    res.send("echo");
+});
+
 module.exports = app;
